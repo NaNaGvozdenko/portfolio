@@ -1,25 +1,20 @@
 package Java1;
 
-public class Dog {
-    private String name;
-    private int age;
-    private double weight;
+public class Dog extends Animals {
 
-    public static final int COUNT = 4;
+    String agressionlevel;
 
-    public Dog(String _name, int _age, double _weight){
-        name = _name;
-        age = _age;
-        weight = _weight;
+    public Dog(String _name, int _age, double _weight, String _agressionlevel) {
+        super(_name, _age, _weight);
+        agressionlevel = _agressionlevel;
     }
 
+    @Override
     public String Info(){
-        return "Собаку зовут: "+name+", возраст: " + age + " лет, вес: "+weight +" кг.";
+        return "Собаку зовут: "+name+", возраст: " + age + " лет, вес: "+weight +" кг. Уровень агрессии: " + agressionlevel;
     }
-
-    public static String bark(){
-        return "Гав-гав";
+    @Override
+    public String bark(){
+        return "Гав-гав!";
     }
-    public void run(){}
-    public void giveAPaw(){}
 }
