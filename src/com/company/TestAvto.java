@@ -2,6 +2,8 @@ package com.company;
 
 import Java1.Avto;
 
+import java.util.Objects;
+
 public class TestAvto {
     public static void main(String[] args) {
         Avto avto1 = new Avto("Opel", "Red", 2020, 112.6, 450, 45);
@@ -18,6 +20,10 @@ public class TestAvto {
         System.out.println(avto2.equals(avto3));
         System.out.println(avto2.equals(avto2));
 
-
+        System.out.println(avto1.hashCode());
+        System.out.println(avto2.hashCode());
+        System.out.println(avto3.hashCode());
+        String f = "f";
+        f.equals("e");
     }
 }

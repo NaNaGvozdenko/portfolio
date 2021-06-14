@@ -41,9 +41,16 @@ public class Avto {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Avto)) return false;
+        if (this == o){
+            System.out.println("Зачем сравнивать один и тот же класс?");
+            return true;
+        }
+        if (!(o instanceof Avto)) {
+            System.out.println("Это разные классы, поверь");
+            return false;
+        }
         Avto avto = (Avto) o;
+        System.out.println("Что-то пошло не так!");
         return yearOfIssue == avto.yearOfIssue && Double.compare(avto.power, power) == 0 && Double.compare(avto.fuelConsumption, fuelConsumption) == 0 && volumeOfTheTank == avto.volumeOfTheTank && mileage == avto.mileage && Objects.equals(model, avto.model) && Objects.equals(color, avto.color);
     }
 
