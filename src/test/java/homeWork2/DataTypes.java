@@ -1,4 +1,4 @@
-package Java1;
+package test.java.homeWork2;
 
 public class DataTypes {
     // В классе DataTypes создайте переменные всех перечисленных выше классов оболочек и инициализируйте их любыми значениями

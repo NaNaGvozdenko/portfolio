@@ -1,8 +1,6 @@
-package com.company;
+package test.java.homeWork2;
 
-import Java1.Avto;
-
-import java.util.Objects;
+import main.java.homeWork2.Avto;
 
 public class TestAvto {
     public static void main(String[] args) {
@@ -10,7 +8,6 @@ public class TestAvto {
         Avto avto2 = new Avto("Mazda", "Yellow", 2021, 116.3, 420, 45);
         Avto avto3 = new Avto("Lada", "Black", 2020, 78.6, 500, 45);
         System.out.println(Avto.InfoOfWheels());
-        System.out.println(avto1.InfoOfCar());
 
         System.out.println(avto1.toString());
         System.out.println(avto2.toString());
@@ -23,7 +20,5 @@ public class TestAvto {
         System.out.println(avto1.hashCode());
         System.out.println(avto2.hashCode());
         System.out.println(avto3.hashCode());
-        String f = "f";
-        f.equals("e");
     }
 }

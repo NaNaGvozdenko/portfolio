@@ -1,4 +1,4 @@
-package Java1;
+package main.java.homeWork2;
 
 import java.util.Objects;
 
@@ -20,33 +20,31 @@ public class Avto {
     // Пройденный километраж на полном баке
     double mileage;
 
-    public Avto( String _model, String _color, int _yearOfIssue, double _power, double _volumeOfTheTank, double _mileage){
-        model = _model;
-        color = _color;
-        yearOfIssue = _yearOfIssue;
-        power = _power;
-        volumeOfTheTank = _volumeOfTheTank;
-        mileage = _mileage;
-        fuelConsumption = (mileage / volumeOfTheTank) * 100;
+    public Avto(String model, String color, int yearOfIssue, double power, double volumeOfTheTank, double mileage) {
+        this.model = model;
+        this.color = color;
+        this.yearOfIssue = yearOfIssue;
+        this.power = power;
+        this.volumeOfTheTank = volumeOfTheTank;
+        this.mileage = mileage;
+        this.fuelConsumption = (mileage / volumeOfTheTank) * 100;
     }
 
-    public String InfoOfCar()
-    {
-        return "Модель: "+model+", цвет: "+color+", год выпуска: "+yearOfIssue+ ", мощность: "+power+", расход: "+ fuelConsumption +" литров на 100км.";
+    public static String InfoOfWheels() {
+        return "У машинки " + numberOfWheels + " колесика ☺";
     }
 
-    public static String InfoOfWheels(){
-        return "У машинки "+numberOfWheels+ " колесика ☺"  ;
+    @Override
+    public String toString() {
+        return "Модель: " + model + ", цвет: " + color + ", год выпуска: " + yearOfIssue + ", мощность: " + power + ", расход: " + Math.round(fuelConsumption) + " литров на 100км.";
     }
 
     @Override
     public boolean equals(Object o) {
-        if (this == o){
+        if (this == o) {
             System.out.println("Зачем сравнивать один и тот же класс?");
             return true;
-        }
-        else
-        {
+        } else {
             System.out.println("Это разные классы, поверь");
             return false;
         }
