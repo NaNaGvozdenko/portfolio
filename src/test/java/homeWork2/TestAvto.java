@@ -1,6 +1,4 @@
-package test.java.homeWork2;
-
-import main.java.homeWork2.Avto;
+package homeWork2;
 
 public class TestAvto {
     public static void main(String[] args) {

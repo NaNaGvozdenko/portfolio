@@ -1,12 +1,9 @@
-package test.java.homeWork5;
-
-import main.java.homeWork4.Dog;
-import main.java.homeWork5.Cat;
+package homeWork5;
 
 import java.util.*;
 
-import static main.java.homeWork5.Metods.GetNoDuplicate;
-import static main.java.homeWork5.Metods.inverse;
+import static homeWork5.Metods.GetNoDuplicate;
+import static homeWork5.Metods.inverse;
 
 // Напишите тестовый класс, проверяющий корректность реализации ваших методов с учетом разных входных параметров
 public class CheckMetods {

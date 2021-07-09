@@ -1,7 +1,4 @@
-package test.java.lesson3;
-
-import main.java.lesson3.Cat;
-import main.java.lesson3.Dog;
+package lesson3;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.java.homeWork2;
+package homeWork2;
 
 public class Cat extends Animals {
 

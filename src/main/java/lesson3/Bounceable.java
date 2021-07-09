@@ -1,4 +1,4 @@
-package main.java.lesson3;
+package lesson3;
 
 public interface Bounceable {
     int height = 10;

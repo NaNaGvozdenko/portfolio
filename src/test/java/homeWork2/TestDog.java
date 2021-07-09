@@ -1,8 +1,4 @@
-package test.java.homeWork2;
-
-import main.java.homeWork2.Animals;
-import main.java.homeWork2.Cat;
-import main.java.homeWork2.Dog;
+package homeWork2;
 
 public class TestDog {
     public static void main(String[] args) {

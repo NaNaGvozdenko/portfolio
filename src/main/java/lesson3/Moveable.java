@@ -1,4 +1,4 @@
-package main.java.lesson3;
+package lesson3;
 
 public interface Moveable {
     String direction = "Left";

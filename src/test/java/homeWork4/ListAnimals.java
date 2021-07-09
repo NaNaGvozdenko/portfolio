@@ -1,7 +1,4 @@
-package test.java.homeWork4;
-
-import main.java.homeWork4.Cat;
-import main.java.homeWork4.Dog;
+package homeWork4;
 
 import java.util.*;
 
