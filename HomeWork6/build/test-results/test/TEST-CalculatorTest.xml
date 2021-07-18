@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2021-07-18T22:58:44" hostname="XTREME-0PRI23T7" time="0.092">
+  <properties/>
+  <testcase name="repetition 1 of 3" classname="CalculatorTest" time="0.015"/>
+  <testcase name="repetition 2 of 3" classname="CalculatorTest" time="0.001"/>
+  <testcase name="repetition 3 of 3" classname="CalculatorTest" time="0.0"/>
+  <testcase name="sumTestTwoParams()" classname="CalculatorTest" time="0.003"/>
+  <testcase name="diffTestOtr()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="powTest()" classname="CalculatorTest" time="0.0"/>
+  <testcase name="[1] 6, -10, 16" classname="CalculatorTest" time="0.015"/>
+  <testcase name="[2] -34, -24, -10" classname="CalculatorTest" time="0.001"/>
+  <testcase name="[3] 0, 0, 0" classname="CalculatorTest" time="0.001"/>
+  <testcase name="diffTest()" classname="CalculatorTest" time="0.0"/>
+  <testcase name="[1] 4, 6, 10" classname="CalculatorTest" time="0.001"/>
+  <testcase name="[2] -1, 1, 0" classname="CalculatorTest" time="0.001"/>
+  <testcase name="[3] 0, 0, 0" classname="CalculatorTest" time="0.001"/>
+  <testcase name="[4] 6, -10, -4" classname="CalculatorTest" time="0.001"/>
+  <testcase name="[5] 34, -24, 10" classname="CalculatorTest" time="0.001"/>
+  <testcase name="[6] -21, -34, -55" classname="CalculatorTest" time="0.001"/>
+  <testcase name="diffTestOtr2()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="sumTestTreeParams()" classname="CalculatorTest" time="0.0"/>
+  <system-out><![CDATA[РўРµСЃС‚ РЅР° СЃСѓРјРјСѓ СЃ РґРІСѓРјСЏ РїР°СЂР°РјРµС‚СЂР°РјРё РІС‹РїРѕР»РЅРµРЅ
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,37 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: '5.8.0-M1'
+}
+
+test {
+    useJUnitPlatform{includeTags("alfa")}
+    // Тест будет падать при первой же ошибке
+    failFast = true
+}
+
+tasks.withType(Test) {
+    testLogging {
+        exceptionFormat "full"
+        events "started", "skipped", "passed", "failed"
+        showStandardStreams true
+    }
+}
+
+// ????????
+// - В gradle.build создайте таски для запуска каждого метода с использованием тега, имени метода
+/*
+task sumTest(type: Test, dependsOn: testClasses) {
+    includeTag("sumTestTwoParams")
+}*/
