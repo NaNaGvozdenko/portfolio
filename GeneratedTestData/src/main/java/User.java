@@ -1,17 +1,23 @@
 import org.apache.commons.lang3.RandomStringUtils;
 
+import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
-public class User {
+public class User implements Serializable {
     private FullName name; // ФИо  с залавной буквы по формату Иванов Иван Иванович
+    private Address address;
     private LocalDate birthDay; // Дата в виде года 1991
     private LocalDateTime registrationDate; // Дата в виде 2020-01-01Т00:00:00
 
     public FullName getName() {
         return name;
+    }
+
+    public Address getAddress() {
+        return address;
     }
 
     public LocalDate getBirthDay() {
@@ -41,8 +47,19 @@ public class User {
         this.password = password;
     }
 
+    // Для домашней работы 9 + генерация адреса
+    public User(FullName name, Address address, LocalDate birthDay, LocalDateTime registrationDate, String login, String password) {
+        this.name = name;
+        this.address = address;
+        this.birthDay = birthDay;
+        this.registrationDate = registrationDate;
+        this.login = login;
+        this.password = password;
+    }
+
     public User() {
         this.name = generateRandomName();
+        this.address = new Address();
         this.birthDay = generateRandomDate();
         this.registrationDate = generateRandomRegistrationDate();
         this.login = generateRandomLogin(6);
@@ -52,11 +69,12 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "name='" + name.getFirstName() + " " + name.getLastName() + " " +name.getMiddleName() + '\'' +
-                ", birthDay=" + birthDay +
-                ", registrationDate=" + registrationDate +
-                ", login='" + login + '\'' +
-                ", password='" + password + '\'' +
+                "name: '" + name.getFirstName() + " " + name.getLastName() + " " +name.getMiddleName() + '\'' +
+                "address: city " + address.getCity() + ", street " + address.getStreet() + ", house " + address.getHouse() + ", flat " + address.getFlat()+
+                ", birthDay: " + birthDay +
+                ", registrationDate: " + registrationDate +
+                ", login: '" + login + '\'' +
+                ", password: '" + password + '\'' +
                 '}';
     }
 
@@ -124,6 +142,4 @@ public class User {
                 .toString();
         return latUp+spec+latDown+numer;
     }
-
-
 }

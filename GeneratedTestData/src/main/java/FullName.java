@@ -1,6 +1,7 @@
+import java.io.Serializable;
 import java.util.Random;
 
-public class FullName {
+public class FullName implements Serializable {
     private String firstName;
     private String lastName;
     private String middleName;
