@@ -4,6 +4,15 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../CucumberInnipolis" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../CucumberInnipolis" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
@@ -55,6 +64,33 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../WebTestFramework" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$USER_HOME$/HomeWork10" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/HomeWork10" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$USER_HOME$/Lesson11_RestAPI" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/Lesson11_RestAPI" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$USER_HOME$/RestAPI" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/RestAPI" />
           </set>
         </option>
       </GradleProjectSettings>

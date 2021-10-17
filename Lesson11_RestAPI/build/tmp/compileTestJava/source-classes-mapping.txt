@@ -1,0 +1,9 @@
+apiTests/petstoreApiTests/UserstoryTests.java
+ apiTests.petstoreApiTests.UserstoryTests
+apiTests/HttpBeanTests.java
+ apiTests.HttpBeanTests
+apiTests/JsonlpaceholderGetTests.java
+ apiTests.JsonlpaceholderGetTests
+apiTests/petstoreApiTests/PetstoreTests.java
+ apiTests.petstoreApiTests.PetstoreTests
+ apiTests.petstoreApiTests.PetstoreTests$1

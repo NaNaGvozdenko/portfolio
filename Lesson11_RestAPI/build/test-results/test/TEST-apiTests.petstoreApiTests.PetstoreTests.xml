@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="apiTests.petstoreApiTests.PetstoreTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-10-17T11:10:55" hostname="XTREME-0PRI23T7" time="13.676">
+  <properties/>
+  <testcase name="deletePet200()" classname="apiTests.petstoreApiTests.PetstoreTests" time="3.413"/>
+  <testcase name="deletePet404()" classname="apiTests.petstoreApiTests.PetstoreTests" time="2.78"/>
+  <testcase name="findPetbyID()" classname="apiTests.petstoreApiTests.PetstoreTests" time="1.773"/>
+  <testcase name="uploadsImagePet()" classname="apiTests.petstoreApiTests.PetstoreTests" time="0.89"/>
+  <testcase name="createPet()" classname="apiTests.petstoreApiTests.PetstoreTests" time="0.959"/>
+  <testcase name="updateExistingPet()" classname="apiTests.petstoreApiTests.PetstoreTests" time="1.834"/>
+  <testcase name="findPetbyStatus()" classname="apiTests.petstoreApiTests.PetstoreTests" time="2.024"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 8188794549742950503,
+    "category": {
+        "id": 4432129909011932771,
+        "name": "FnlxKgwhBu"
+    },
+    "name": "atcGwqwkok",
+    "photoUrls": [
+        "HHMyKzSiDn"
+    ],
+    "tags": [
+        {
+            "id": 6723390532268816030,
+            "name": "eMkkxeigou"
+        },
+        {
+            "id": 1965504358334487950,
+            "name": "jxjtgYXgeg"
+        }
+    ],
+    "status": "DjKyX"
+}
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/8188794549742950503
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "petId": 8188794549742950503
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 6852198678188945630,
+    "category": {
+        "id": 3938686306775899488,
+        "name": "xUekUJTRnq"
+    },
+    "name": "jXNaKcBeTP",
+    "photoUrls": [
+        "BGlihLuuNn"
+    ],
+    "tags": [
+        {
+            "id": 2273963935168258655,
+            "name": "WKMzXfQiWM"
+        },
+        {
+            "id": 7620533547957011162,
+            "name": "OYrPIqMpge"
+        }
+    ],
+    "status": "HUVCd"
+}
+Request method:	DELETE
+Request URI:	https://petstore.swagger.io/v2/pet/6852198678188945630
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/6852198678188945630
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 2423060786215437546,
+    "category": {
+        "id": 6120956001378983032,
+        "name": "yPmhFRtPpj"
+    },
+    "name": "WoUBIeoxum",
+    "photoUrls": [
+        "cigsRyStxt"
+    ],
+    "tags": [
+        {
+            "id": 5452738060169775016,
+            "name": "NEzluiffhA"
+        },
+        {
+            "id": 4767876760388848295,
+            "name": "rfJpYxtoUk"
+        }
+    ],
+    "status": "XcjHQ"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/2423060786215437546
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet/12/uploadImage
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "petId": 1735605663,
+    "additionalMetadata": "fKCDOpPUGg",
+    "file": "dHGuKsbdju.jpg"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 5461226051694284430,
+    "category": {
+        "id": 4783257415185549669,
+        "name": "IvKKSuOfOD"
+    },
+    "name": "PsErohrZjW",
+    "photoUrls": [
+        "bPvsLkDmNl"
+    ],
+    "tags": [
+        {
+            "id": 5912787681696436616,
+            "name": "GIXyeKOkFv"
+        },
+        {
+            "id": 5447825688208227178,
+            "name": "iDqwLBZbmt"
+        }
+    ],
+    "status": "kSCoz"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1246537232220441027,
+    "category": {
+        "id": 7602704731075662319,
+        "name": "FvdmGZRTwB"
+    },
+    "name": "DcTkAjJkWY",
+    "photoUrls": [
+        "UcGEvtmDgv"
+    ],
+    "tags": [
+        {
+            "id": 2591259421701162597,
+            "name": "mQDoVwBNCm"
+        },
+        {
+            "id": 3268986701513640123,
+            "name": "ZmaTmlqeUy"
+        }
+    ],
+    "status": "JNlnO"
+}
+Request method:	PUT
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1246537232220441027,
+    "category": {
+        "id": 7602704731075662319,
+        "name": "FvdmGZRTwB"
+    },
+    "name": "DcTkAjJkWY",
+    "photoUrls": [
+        "JcLzHnCbhe"
+    ],
+    "tags": [
+        {
+            "id": 6145615956989300832,
+            "name": "KymxoreESO"
+        },
+        {
+            "id": 6845523510282309251,
+            "name": "iKBuWzevAC"
+        }
+    ],
+    "status": "sold"
+}
+Request method:	POST
+Request URI:	https://petstore.swagger.io/v2/pet
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": 1815642225889612546,
+    "category": {
+        "id": 8013545694089615673,
+        "name": "LXAqdACbBk"
+    },
+    "name": null,
+    "photoUrls": [
+        "lgQqmoZsDh"
+    ],
+    "tags": [
+        {
+            "id": 7529163528399276181,
+            "name": "xgcJsLUvCz"
+        },
+        {
+            "id": 4171036174056297590,
+            "name": "xXMmajuxwx"
+        }
+    ],
+    "status": "sold"
+}
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
