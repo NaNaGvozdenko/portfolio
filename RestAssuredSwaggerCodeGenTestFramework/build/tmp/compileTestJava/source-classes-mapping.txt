@@ -1,0 +1,8 @@
+petstore/api/PetApiTest.java
+ petstore.api.PetApiTest
+jsonSchemaValidationTest/JsonSchemaValidationTest.java
+ jsonSchemaValidationTest.JsonSchemaValidationTest
+petstore/api/UserApiTest.java
+ petstore.api.UserApiTest
+petstore/api/StoreApiTest.java
+ petstore.api.StoreApiTest

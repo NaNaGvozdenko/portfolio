@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="petstore.api.StoreApiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-10-18T17:38:21" hostname="XTREME-0PRI23T7" time="3.191">
+  <properties/>
+  <testcase name="shouldSee200AfterDeleteOrder" classname="petstore.api.StoreApiTest" time="3.191"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Mon, 18 Oct 2021 18:38:26 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "code": 200,
+    "type": "unknown",
+    "message": "123"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
