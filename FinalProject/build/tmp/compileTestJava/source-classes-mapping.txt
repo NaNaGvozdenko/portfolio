@@ -1,0 +1,6 @@
+apiTests/AccountApiTests.java
+ apiTests.AccountApiTests
+selenidTests/TestSelenide.java
+ selenidTests.TestSelenide
+apiTests/BookStoreApiTests.java
+ apiTests.BookStoreApiTests

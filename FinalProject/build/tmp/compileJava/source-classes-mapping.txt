@@ -1,0 +1,24 @@
+apiTests/CreateUserResult.java
+ apiTests.CreateUserResult
+apiTests/All.java
+ apiTests.All
+selenidTests/SearchBookPage.java
+ selenidTests.SearchBookPage
+apiTests/BookModal.java
+ apiTests.BookModal
+selenidTests/RegistrationFormPage.java
+ selenidTests.RegistrationFormPage
+apiTests/CollectionOfIsbn.java
+ apiTests.CollectionOfIsbn
+apiTests/AllBooksModal.java
+ apiTests.AllBooksModal
+apiTests/LoginViewModel.java
+ apiTests.LoginViewModel
+apiTests/TokenViewModel.java
+ apiTests.TokenViewModel
+selenidTests/LoginBookStorePage.java
+ selenidTests.LoginBookStorePage
+apiTests/AddListOfBooks.java
+ apiTests.AddListOfBooks
+apiTests/MessageModel.java
+ apiTests.MessageModel
