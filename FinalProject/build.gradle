@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.5'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+// Для восприятия русских бувк
+compileJava.options.encoding = 'UTF-8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    implementation group: 'io.github.bonigarcia', name: 'webdrivermanager', version: '4.4.3'
+    testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.32'
+    implementation group: 'io.qameta.allure', name: 'allure-java-commons', version: '2.7.0'
+    testImplementation group: 'io.qameta.allure', name: 'allure-junit5', version: '2.14.0'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+
+allure {
+    autoconfigure = true
+    version = '2.7.0'
+    downloadLink = 'https://github.com/allure-framework/allure2/releases/download/2.7.0/allure-2.7.0.zip' useJUnit5 {
+        version = '2.7.0' }
+}

@@ -1,2 +1,0 @@
-bookStore/pages/RegistrationFormPage.java
- bookStore.pages.RegistrationFormPage
